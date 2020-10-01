@@ -1,5 +1,7 @@
 # temperature_fans
-Code for temperature controlled fans using an STM32 Nucleo-board with the F446RET MCU and the STM32CubeIDE. I will be uploading design schematics and the math to calculate the temperature from the thermistor soon. I recommend following this video for understanding the integer to temperature conversion for those interested: https://www.youtube.com/watch?v=k4fzrTtSoNk&list=WL&index=3&t=292s
+Code for temperature controlled fans using an STM32 Nucleo-board with the F446RET MCU and the STM32CubeIDE(v1.3.0 which is more friendly to the MacOS). I will be uploading design schematics and the math to calculate the temperature from the thermistor soon. I recommend following this video for understanding the integer to temperature conversion for those interested: https://www.youtube.com/watch?v=k4fzrTtSoNk&list=WL&index=3&t=292s
+
+Note: The IDE currently has issues with linking an existing project to a workspace. It is probably best to build a project based on the provided .ioc file and then copy main.c
 
 # Materials
 - STM32 F446RET Nucleo-board
