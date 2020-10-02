@@ -11,7 +11,7 @@ Note: The IDE currently has issues with linking an existing project to a workspa
 - 2N222A Transistor
 - Power Board capable of outputting 5V*
 
-** = Generic Item, brand is not necessary as long as it meets the stated specs
+* = Generic Item, brand is not necessary as long as it meets the stated specs
 
 # Verbal Design
 - The resistor and thermistor are setup via a voltage divider (I personally powered the circuit with the 3.3V output pin on the Nucleo-board, the power board could be used for this as well)
